@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-size: 1.6rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #283044;
+    color: #78A1BB;   
+}
+
+.title{
+    font-size: 2.8rem;
+    margin: 5rem auto;
+    width: max-content;
+    text-transform: uppercase;
+}
+
+.wrapper{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    margin-bottom: 2rem;
+    width: 45%;
+    font-size: 2.2rem;
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    border: 2px solid #78A1BB;
+    background-color: #283044;
+    color: #fff;
+}
+
+.submit{
+    padding: 1rem 2rem;
+    background-color: #78A1BB;
+    color: #fff;
+    border: none;
+    width: 20rem; 
+    border-radius: 5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform linear .1s;
+    outline: none;
+}
+
+.deleteAll{
+    padding: 1rem 2rem;
+    background-color: #DB5461;
+    color: #fff;
+    border: none;
+    width: 20rem; 
+    border-radius: 5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform linear .1s;
+    outline: none;
+    margin: auto;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.submit:hover{
+    transform: translateY(-.2rem);
+}
+
+.focus{
+    transform: scale(1.05);
+}
+
+.tasks{
+    width: 35%;
+    margin: auto;
+}
+
+.task{
+    color: #fff;
+    font-size: 2.2rem;
+    border: 1px solid #78A1BB;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-btn{
+    padding: .5rem 1rem;
+    background-color: #DB5461;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform linear .1s;
+    outline: none;
+    opacity: .75;
+    transition: opacity linear .1s;
+    border-radius: 5rem;
+}
+
+.delete-btn:hover{
+    opacity: 1;
+}
+
+
+
+
